@@ -1,9 +1,4 @@
-# tco-node
-tco-node is a JavaScript library for tail call optimization.
-
-## Examples
-```js
-import { tco, trampoline } from 'tco-node';
+const { tco, trampoline } = require('../src')
 
 const sum = tco(function(x, y) {
   if (y > 0) {
@@ -88,20 +83,3 @@ console.log(
   odd(99998)
 )
 // false true true false
-
-```
-
-## Installation
-
-```
-npm install --save tco-node
-```
-
-## Usage
-You can import from `tco-node`:
-
-```js
-import { tco, trampoline } from 'tco-node';
-// or
-const { tco, trampoline } = require('tco-node');
-```

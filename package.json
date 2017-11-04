@@ -1,0 +1,19 @@
+{
+  "name": "tco-node",
+  "version": "1.1.0",
+  "description": "tail call optimization for javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andy2046/tco-node.git"
+  },
+  "author": "AndyP (https://www.npmjs.com/~andy*()",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andy2046/tco-node/issues"
+  },
+  "homepage": "https://github.com/andy2046/tco-node#readme"
+}

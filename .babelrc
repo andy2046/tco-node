@@ -1,0 +1,25 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ],
+  "sourceMaps": "both",
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-object-rest-spread",
+    "transform-runtime"
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        ["istanbul"]
+      ]
+    },
+    "production": {
+      "plugins": ["source-map-support"]
+    }
+  }
+}
